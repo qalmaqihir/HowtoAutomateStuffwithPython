@@ -9,9 +9,9 @@ class PdfUrlSpider(CrawlSpider):
     # This nameis required. it is how we refer to this PdfUrlSpider class from commnd line
     name = 'pdf_urls'
     # Every link we look at MUST be a part of the adobe.com domain (i.e contains "adobe.com" in it's url)
-    allowed_domains=['ucentralasia.org']
+    allowed_domains=['arxiv.org']
     # this is the url we will start from (check all the links on this webpage first and then go deeper
-    start_urls=['https://ucentralasia.org/']
+    start_urls=['https://arxiv.org/pdf']
     # this Rule Says:
     # 1. allow all links to be extracted
     # 2. call parse_httpresponse on each extracteed link

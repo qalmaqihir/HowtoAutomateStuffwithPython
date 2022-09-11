@@ -5,7 +5,7 @@ non alphanumic.
 
 
 #========================================Exercise======================================#
-text = "Yo! How are you doin? I just made $1000"
+text = "Yo! How are you doin? I just made* $1000"
 
 pattern="\w\w\w\w\W"
 
